@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 // Welcome page (public)
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('register');
 });
 
 // Authenticated routes
