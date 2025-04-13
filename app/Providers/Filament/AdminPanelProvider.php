@@ -34,7 +34,6 @@ class AdminPanelProvider extends PanelProvider
             ->resources([
                 TaskResource::class,
                 UserResource::class,
-                TestResource::class
             ])
             ->discoverPages(in: app_path('Filament/Admin/Pages'), for: 'App\\Filament\\Admin\\Pages')
             ->pages([
