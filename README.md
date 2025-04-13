@@ -51,6 +51,11 @@ php artisan migrate
 Compile assets:
 npm run dev
 
+## Seeding Admin user with admin role
+ Seeding Admin user with admin role :
+ Run this command : php artisan db:seed
+
+
 ## Start the server
 Start the server:
 php artisan serve
